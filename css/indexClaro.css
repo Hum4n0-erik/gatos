@@ -1,0 +1,119 @@
+* {
+    transition-duration: 0.5s;
+    cursor: url('../img/huellaOscura.cur'), auto;
+}
+.margen{
+    margin-left: 20%;
+}
+body {
+    background-color:  floralwhite;
+}
+/* Boton de eleccion de animal */
+#animal {
+    background: none;
+    color: rgb(98, 250, 255);
+    font-size: 120%;
+    border: none;
+    text-decoration:overline;
+}
+#animal:hover {
+    color:violet;
+    font-size: 130%;
+    font-weight:bolder;
+}
+/* Head-Menu */
+#head-main {
+    cursor: url('../img/huellaClara.cur'), auto;
+    transition-duration: 500ms;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 63, 63);
+    padding: 2%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 120%;
+}
+#head-main.scrolled{
+    background-color: rgb(63, 63, 63);
+    position: fixed;
+    width: 10%;
+    font-size: 80%;
+    padding: 2%;
+    font-size: 100%;
+    flex-direction: column;
+    height: 60%;
+    text-align: center;
+    margin-left: 0%;
+}
+#head-main a {
+    color: rgb(168, 162, 255);
+    text-decoration:overline;
+}
+#head-main a:hover {
+    color:violet;
+    font-size: 120%;
+    font-weight:bolder;
+    cursor: url('../img/huellaOscura.cur'), auto;
+}
+/* Estilo del boton de cambio de css */
+#color{
+    border: 0px;
+    background:none;
+    font-size: 130%;
+}
+#color:hover {
+    font-size: 150%;
+    border: solid violet 2px;
+}
+/* Pequeña galeria de animales */
+h1 {
+    margin-top: 2%;
+    color: rgb(43, 43, 43);
+}
+#galeria {
+    display: flex;
+    width: 80%;
+    margin: 10%;
+    margin-top: 0%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.animales-galeria img {
+    width: 18vw;
+    object-fit:scale-down;
+    border: solid rgb(34, 34, 34) 2px;
+    border-radius: 50%;
+    background-color: rgb(207, 194, 173);
+}
+.animales-galeria img:hover {
+    background-color: violet;
+    transform: scale(1.3);
+    z-index: 1;
+    transition-duration: 1s;
+    border-radius: 10%;
+}
+
+/* El apartado de estilos de las razas */
+.titulo {
+    margin-left: 20%;
+    color: rgb(43, 43, 43);
+}
+
+.animales-raza {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.textoRaza {
+    background-color: rgb(63, 63, 63);
+    width: 60%;
+    padding: 2%;
+    color: rgb(168, 162, 255);
+}
+.textoRaza:hover {
+    cursor: url('../img/huellaClara.cur'), auto;
+}
+.raza6, .raza8{
+    flex-direction: row-reverse;
+}
