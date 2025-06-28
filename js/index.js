@@ -44,7 +44,8 @@ function cambioIdioma() {
             document.getElementById("titulo-web").innerText = "Dogs";
             document.getElementById("animal-tipo").innerText = "Other types of dogs";
             document.getElementById("animal").innerText = "Cats";
-            document.getElementById("titulo-galeria").innerText = "Galery of Dogs"
+            document.getElementById("titulo-galeria").innerText = "Galery of Dogs";
+            document.getElementById("titulo-raza").innerText = "Race";
             imagenes[0].src = "./img/perro/perro1.png";
             imagenes[1].src = "./img/perro/perro2.png";
             imagenes[2].src = "./img/perro/perro3.png";
@@ -67,7 +68,8 @@ function cambioIdioma() {
             document.getElementById("titulo-web").innerText = "Cats";
             document.getElementById("animal-tipo").innerText = "Other types of felines";
             document.getElementById("animal").innerText = "Dogs";
-            document.getElementById("titulo-galeria").innerText = "Galery of Cats"
+            document.getElementById("titulo-galeria").innerText = "Galery of Cats";
+            document.getElementById("titulo-raza").innerText = "Race";
             imagenes[0].src = "./img/gato/gato1.png";
             imagenes[1].src = "./img/gato/gato2.png";
             imagenes[2].src = "./img/gato/gato3.png";
@@ -93,7 +95,8 @@ function cambioIdioma() {
             document.getElementById("titulo-web").innerText = "Perros";
             document.getElementById("animal-tipo").innerText = "Otros tipos de perro";
             document.getElementById("animal").innerText = "Gatos";
-            document.getElementById("titulo-galeria").innerText = "Galeria Perros"
+            document.getElementById("titulo-galeria").innerText = "Galeria Perros";
+            document.getElementById("titulo-raza").innerText = "Razas";
             imagenes[0].src = "./img/perro/perro1.png";
             imagenes[1].src = "./img/perro/perro2.png";
             imagenes[2].src = "./img/perro/perro3.png";
@@ -116,7 +119,8 @@ function cambioIdioma() {
             document.getElementById("titulo-web").innerText = "Gatitos";
             document.getElementById("animal-tipo").innerText = "Otros tipos de gatos";
             document.getElementById("animal").innerText = "Perros";
-            document.getElementById("titulo-galeria").innerText = "Galeria Gatos"
+            document.getElementById("titulo-galeria").innerText = "Galeria Gatos";
+            document.getElementById("titulo-raza").innerText = "Razas";
             imagenes[0].src = "./img/gato/gato1.png";
             imagenes[1].src = "./img/gato/gato2.png";
             imagenes[2].src = "./img/gato/gato3.png";
