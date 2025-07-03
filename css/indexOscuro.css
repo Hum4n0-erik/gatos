@@ -4,6 +4,12 @@
 body {
     background-color: rgba(0, 0, 0, 0.980);
 }
+h1 {
+    color: white;
+}
+h3 {
+    color: greenyellow;
+}
 /* Boton de eleccion de animal */
 #animal, #idioma {
     color: green;
@@ -30,10 +36,6 @@ body {
     border: solid brown 2px;
 }
 /* Pequeña galeria de animales */
-h1 {
-    color: white;
-}
-
 .animales-galeria img {
     background-color: rgb(34, 34, 34);
     border: solid rgb(207, 194, 173) 2px;
@@ -46,16 +48,16 @@ h1 {
 .titulo {
     color: white;
 }
-.raza{
+.raza, .tituloTipo{
     color: white;
 }
-.textoRaza {
+.textoRaza, .textoTipo{
     background-color: rgb(255, 217, 170);
     color: brown;
 }
-.textoRaza:hover {
+.textoRaza:hover, .textoTipo:hover{
     cursor: url('../img/huellaOscura.cur'), auto;
 }
-.raza5, .raza7{
+.raza5, .raza7, .imgTipo1, .imgTipo3{
     flex-direction: row-reverse;
 }

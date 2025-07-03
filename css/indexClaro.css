@@ -4,6 +4,9 @@
 body {
     background-color:  rgb(255, 225, 165);
 }
+h3 {
+    color:blue;
+}
 /* Boton de eleccion de animal */
 #animal, #idioma {
     color: rgb(98, 250, 255);
@@ -31,9 +34,7 @@ body {
     border: solid violet 2px;
 }
 /* Pequeña galeria de animales */
-h1 {
-    color: rgb(43, 43, 43);
-}
+
 .animales-galeria img {
     border: solid rgb(34, 34, 34) 2px;
     background-color: rgb(207, 194, 173);
@@ -47,13 +48,13 @@ h1 {
     color: rgb(43, 43, 43);
 }
 
-.textoRaza {
+.textoRaza, .textoTipo {
     background-color: rgb(63, 63, 63);
     color: rgb(168, 162, 255);
 }
-.textoRaza:hover {
+.textoRaza:hover, .textoTipo:hover{
     cursor: url('../img/huellaClara.cur'), auto;
 }
-.raza6, .raza8{
+.raza6, .raza8, .imgTipo2, .imgTipo4{
     flex-direction: row-reverse;
 }

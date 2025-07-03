@@ -33,7 +33,16 @@ let razas = [
     document.getElementById("raza3"),
     document.getElementById("raza4"),
 ];
-
+let tipos = [
+    document.getElementById("textoTipo1"),
+    document.getElementById("textoTipo2"),
+    document.getElementById("textoTipo3"),
+    document.getElementById("textoTipo4"),
+    document.getElementById("imgTipo1"),
+    document.getElementById("imgTipo2"),
+    document.getElementById("imgTipo3"),
+    document.getElementById("imgTipo4"),
+]
 // Cambio de IDIOMA
 let animal = true;
 let lenguaje = true;
@@ -114,6 +123,17 @@ function cambioIdioma() {
             razas[5].innerText = "Beagle";
             razas[6].innerText = "Border collie";
             razas[7].innerText = "Buhund noruego";
+        // Apartado de Tipos de animal
+            // Texto
+            tipos[0].innerText = "Si";
+            tipos[1].innerText = "Cambia";
+            tipos[2].innerText = "a";
+            tipos[3].innerText = "perro";
+            // Imagenes
+            tipos[4].src = "./../img/perro/tipo1.png";
+            tipos[5].src = "./../img/perro/tipo2.png";
+            tipos[6].src = "./../img/perro/tipo3.png";
+            tipos[7].src = "./../img/perro/tipo4.png";
         } else { // GATOS
             document.getElementById("icono").href = "./img/gato/logoGato.png";
             document.getElementById("titulo-web").innerText = "Gatitos";
@@ -129,7 +149,7 @@ function cambioIdioma() {
             imagenes[5].src = "./img/gato/raza2.png";
             imagenes[6].src = "./img/gato/raza3.png";
             imagenes[7].src = "./img/gato/raza4.png";
-            // Texto Razas
+            // Apartado de Razas
             razas[0].innerText = "Largo y ágil, palabras como elegante y grácil se inventaron para definir al gato siamés. Se trata de una raza llamativa y reconocible, hasta para quienes no saben nada de gatos o incluso no les tienen demasiado aprecio. El siamés es afectuoso y sociable, y puede adaptarse sin problemas a la vida familiar. No obstante, también es muy curioso y activo, así que más vale que lo mantengas entretenido con juegos en los que tenga que ir a buscar objetos que le lances o con largos paseos por el barrio. ";
             razas[1].innerText = "El gato siberiano es un animal afectuoso y leal que resulta un gran compañero, ya que se lleva realmente bien con todo el mundo, incluidos niños y otras mascotas. Además de su aspecto imponente, le encantan los arrumacos. Tiene una personalidad tan dulce que hace que quieras tenerlo cerca todo el rato. ";
             razas[2].innerText = "El birmano, o gato sagrado de birmania, es un gato de pelo semilargo de color más oscuro hacia las marcas distales, la cara, las patas, las orejas y la cola, y algo más claro en el resto del cuerpo. Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas. El birmano tiene los ojos azules y las cuatro zarpas de color blanco puro. Los «calcetines» delanteros cubren solo las falanges, pero los traseros son más largos. La cabeza es ancha y redonda, con orejas de tamaño medio. Los birmanos presentan muchos colores distintos, aunque el gato birmano blanco es el más conocido. ";
@@ -138,6 +158,17 @@ function cambioIdioma() {
             razas[5].innerText = "Bosque de Siberia";
             razas[6].innerText = "Birmano";
             razas[7].innerText = "Munchkin";
+        // Apartado de Tipos de animal
+            // Texto
+            tipos[0].innerText = "El tigre es el felino más grande del mundo, con una longitud superior a los tres metros y un peso de hasta 300 kg. Es un animal carnívoro y se puede encontrar en las cálidas selvas de India, aunque es originario del norte de Siberia. Su pelaje generalmente es amarillo-rojizo, pero también puede presentarse en dos tonalidades diferentes: negro y blanco absoluto. Estos tres fenotipos comparten unas rayas verticales muy oscuras que son únicas para cada individuo, similares a las huellas dactilares de los humanos.";
+            tipos[1].innerText = "Los leones son los únicos felinos que viven en manada. Las unidades familiares pueden incluir hasta tres machos, una docena de hembras y sus crías. Todas las leonas de una manada están emparentadas y usualmente los pequeñas hembras en su seno se quedan con el grupo a medida que envejecen. Los varones jóvenes, sin embargo, tarde o temprano abandonan el grupo o son expulsados y establecen su propia manada.";
+            tipos[2].innerText = "El jaguar es un felino de gran tamaño y poder, y su instinto felino se manifiesta en varias características únicas. Es el felino más grande del continente americano y el tercero en el mundo, después del tigre y el león. Su instinto como depredador lo hace clave en el equilibrio de los ecosistemas, ya que controla el comportamiento y las poblaciones de las especies que consume. Además, el jaguar es un cazador oportunista, lo que significa que puede cazar casi cualquier animal que se cruce en su camino.";
+            tipos[3].innerText = "El leopardo es un elegante y fuerte felino emparentado con los leones, los tigres y los jaguares. Vive en el África subsahariana, el norte de África, Asia Central, India y China. Sin embargo, en algunos lugares están amenazados, especialmente en las regiones fuera de África. El leopardo se siente tan cómodo en los árboles que suele llevar a sus presas a las ramas. Así, los mantiene fuera del alcance de carroñeros, como las hienas. También caza desde las ramas de los árboles, donde gracias a su colorido se camufla a la perfección entre las hojas hasta que da el salto mortal sobre su víctima. Estos depredadores nocturnos también atacan antílopes, ciervos y cerdos moviéndose furtivamente entre la alta hierba. Cuando hay asentamientos humanos, también cazan perros y, de vez en cuando, personas.";
+            // Imagenes
+            tipos[4].src = "./../img/gato/tipo1.png";
+            tipos[5].src = "./../img/gato/tipo2.png";
+            tipos[6].src = "./../img/gato/tipo3.png";
+            tipos[7].src = "./../img/gato/tipo4.png";
         }
         document.getElementById("idioma").innerText = "Español";
     }
@@ -222,6 +253,17 @@ function cambio() {
                 razas[5].innerText = "Beagle";
                 razas[6].innerText = "Border collie";
                 razas[7].innerText = "Buhund noruego";
+            // Apartado de Tipos de animal
+                // Texto
+                tipos[0].innerText = "Si";
+                tipos[1].innerText = "Cambia";
+                tipos[2].innerText = "a";
+                tipos[3].innerText = "perro";
+                // Imagenes
+                tipos[4].src = "./../img/perro/tipo1.png";
+                tipos[5].src = "./../img/perro/tipo2.png";
+                tipos[6].src = "./../img/perro/tipo3.png";
+                tipos[7].src = "./../img/perro/tipo4.png";
             } else { // GATOS
                 document.getElementById("icono").href = "./img/gato/logoGato.png";
                 document.getElementById("titulo-web").innerText = "Gatitos";
@@ -245,6 +287,17 @@ function cambio() {
                 razas[5].innerText = "Bosque de Siberia";
                 razas[6].innerText = "Birmano";
                 razas[7].innerText = "Munchkin";
+            // Apartado de Tipos de animal
+                // Texto
+                tipos[0].innerText = "El tigre es el felino más grande del mundo, con una longitud superior a los tres metros y un peso de hasta 300 kg. Es un animal carnívoro y se puede encontrar en las cálidas selvas de India, aunque es originario del norte de Siberia. Su pelaje generalmente es amarillo-rojizo, pero también puede presentarse en dos tonalidades diferentes: negro y blanco absoluto. Estos tres fenotipos comparten unas rayas verticales muy oscuras que son únicas para cada individuo, similares a las huellas dactilares de los humanos.";
+                tipos[1].innerText = "Los leones son los únicos felinos que viven en manada. Las unidades familiares pueden incluir hasta tres machos, una docena de hembras y sus crías. Todas las leonas de una manada están emparentadas y usualmente los pequeñas hembras en su seno se quedan con el grupo a medida que envejecen. Los varones jóvenes, sin embargo, tarde o temprano abandonan el grupo o son expulsados y establecen su propia manada.";
+                tipos[2].innerText = "El jaguar es un felino de gran tamaño y poder, y su instinto felino se manifiesta en varias características únicas. Es el felino más grande del continente americano y el tercero en el mundo, después del tigre y el león. Su instinto como depredador lo hace clave en el equilibrio de los ecosistemas, ya que controla el comportamiento y las poblaciones de las especies que consume. Además, el jaguar es un cazador oportunista, lo que significa que puede cazar casi cualquier animal que se cruce en su camino.";
+                tipos[3].innerText = "El leopardo es un elegante y fuerte felino emparentado con los leones, los tigres y los jaguares. Vive en el África subsahariana, el norte de África, Asia Central, India y China. Sin embargo, en algunos lugares están amenazados, especialmente en las regiones fuera de África. El leopardo se siente tan cómodo en los árboles que suele llevar a sus presas a las ramas. Así, los mantiene fuera del alcance de carroñeros, como las hienas. También caza desde las ramas de los árboles, donde gracias a su colorido se camufla a la perfección entre las hojas hasta que da el salto mortal sobre su víctima. Estos depredadores nocturnos también atacan antílopes, ciervos y cerdos moviéndose furtivamente entre la alta hierba. Cuando hay asentamientos humanos, también cazan perros y, de vez en cuando, personas.";
+                // Imagenes
+                tipos[4].src = "./../img/gato/tipo1.png";
+                tipos[5].src = "./../img/gato/tipo2.png";
+                tipos[6].src = "./../img/gato/tipo3.png";
+                tipos[7].src = "./../img/gato/tipo4.png";
             }
         }
         animal = !animal;

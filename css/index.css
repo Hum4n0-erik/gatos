@@ -66,12 +66,12 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-.animales-galeria img {
+.animales-galeria img, .tipo img{
     width: 18vw;
     object-fit:scale-down;
     border-radius: 50%;
 }
-.animales-galeria img:hover {
+.animales-galeria img:hover, .tipo img:hover {
     transform: scale(1.3);
     z-index: 1;
     transition-duration: 1s;
@@ -83,12 +83,12 @@ h1 {
     margin-left: 20%;
 }
 
-.animales-raza {
+.animales-raza, .animales-tipo {
     display: flex;
     justify-content: center;
     gap: 5%;
 }
-.textoRaza {
+.textoRaza, .textoTipo {
     width: 60%;
     padding: 2%;
 }
